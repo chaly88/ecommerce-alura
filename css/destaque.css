@@ -1,0 +1,120 @@
+.destaque{
+	width: 100%;
+	height: auto;
+	background-image: url('../images/hero2.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: cover;
+	padding: 7rem;
+	background-attachment: fixed;
+}
+
+.banner{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	padding: 1rem;
+}
+
+.banner h1{
+	font-size: 48px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+}
+
+.banner h4{
+	font-size: 24px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.banner button{
+	width: 200px;
+	height: 50px;
+	background: none;
+	color: white;
+	border: 1px solid white;
+	text-transform: uppercase;
+
+}
+.banner button:hover{
+	background-color: var(--color-secondary);
+	cursor: pointer;
+
+}
+
+@media screen and (max-width: 815px){
+
+	.destaque{
+		width: 100%;
+		height: auto;
+		align-items: center;
+
+	}
+
+	.banner{
+		width: 100%;
+		height: auto;
+		padding: 2rem;
+		justify-content: center;
+	}
+
+
+}
+@media screen and (max-width: 734px){
+	.destaque{
+		
+		background-size: cover;
+
+	}
+    .banner{
+
+
+	}
+}
+
+@media screen and (max-width: 376px){
+	.destaque{
+		
+		width: 100vw;
+		margin: 0;
+		padding: 0;
+
+	}
+    .banner{
+		width: 100vw;
+
+	}
+    .banner h1{
+    	font-size: 1.8rem;
+
+	}
+}
+
+@media screen and (max-width: 480px){
+	.destaque{
+		
+		width: 100vw;
+		margin: 0;
+		padding: 0;
+
+
+	}
+    .banner{
+		width: 100vw;
+
+	}
+    .banner h1{
+    	font-size: 1.6rem;
+
+	}
+	    .banner h4{
+    	font-size: 1rem;
+
+	}
+}
